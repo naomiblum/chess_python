@@ -1,9 +1,9 @@
 ## Chess Python: Interactive Chess Game with Pygame
 
 ### 🌟 Overview
-This project is an interactive two-player chess game built using Python and Pygame. 
-It serves as a hands-on exploration of object-oriented programming (OOP) principles, game logic, and animation. 
-The goal of the project is to create a fully functional chess game with a polished user interface and accurate gameplay mechanics.
+- This project is an interactive two-player chess game built using Python and Pygame. 
+- It serves as a hands-on exploration of object-oriented programming (OOP) principles, game logic, and animation. 
+- The goal of the project is to create a fully functional chess game with a polished user interface and accurate gameplay mechanics.
 
 ---
 
@@ -55,8 +55,8 @@ chess_python/
 ```
 
 ### ⚙️ Technologies Used
-Python: Core programming language
-Pygame: Library for game development and rendering graphics
+- Python: Core programming language 
+- Pygame: Library for game development and rendering graphics
 
 ---
 
