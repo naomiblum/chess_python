@@ -62,13 +62,13 @@ Clone the Repository:
 ```
 git clone https://github.com/naomiblum/chess_python.git
 cd chess_python
-Install Dependencies: Ensure that Pygame is installed:
 ```
+Install Dependencies: Ensure that Pygame is installed:
 
 ```
 pip install pygame
-Run the Game:
 ```
+Run the Game:
 
 ```
 python main.py
