@@ -1,22 +1,24 @@
 ## Chess Python: Interactive Chess Game with Pygame
 
 ### 🌟 Overview
-This project is an interactive two-player chess game built using Python and Pygame. It serves as a hands-on exploration of object-oriented programming (OOP) principles, game logic, and animation. The goal of the project is to create a fully functional chess game with a polished user interface and accurate gameplay mechanics.
+This project is an interactive two-player chess game built using Python and Pygame. 
+It serves as a hands-on exploration of object-oriented programming (OOP) principles, game logic, and animation. 
+The goal of the project is to create a fully functional chess game with a polished user interface and accurate gameplay mechanics.
 
 ---
 
 ### 🎯 Key Features
-Two-Player Mode: Play chess with a friend on the same device.
-Full Chess Rules: Implements all official chess rules, including:
-Pawn promotion
-Castling
-En passant
-Check and checkmate detection
-Interactive Graphics:
-Highlighting valid moves for selected pieces
-Animations for piece movement
-Modular Design: The codebase is structured using OOP principles for better readability, reusability, and scalability.
-Customizable Assets: Easily replace the graphical assets for a personalized look and feel.
+- Two-Player Mode: Play chess with a friend on the same device.
+- Full Chess Rules: Implements all official chess rules, including:
+- Pawn promotion
+- Castling
+- En passant
+- Check and checkmate detection
+- Interactive Graphics:
+- Highlighting valid moves for selected pieces
+- Animations for piece movement
+- Modular Design: The codebase is structured using OOP principles for better readability, reusability, and scalability.
+- Customizable Assets: Easily replace the graphical assets for a personalized look and feel.
 
 ---
 
@@ -39,7 +41,7 @@ Special game states such as check, checkmate, and pawn promotion are handled aut
 
 ### 📂 Project Structure
 The project is organized into multiple files for clarity and reusability:
-
+```
 chess_python/
 │
 ├── assets/         # Contains graphical assets for chess pieces
@@ -50,6 +52,7 @@ chess_python/
 │   └── utils.py    # Utility functions for the game
 │
 └── main.py         # Entry point for running the game
+```
 
 ### ⚙️ Technologies Used
 Python: Core programming language
@@ -60,27 +63,30 @@ Pygame: Library for game development and rendering graphics
 ### 🛠️ How to Run the Project
 Clone the Repository:
 
-
+```
 git clone https://github.com/naomiblum/chess_python.git
 cd chess_python
 Install Dependencies: Ensure that Pygame is installed:
+```
 
-bash
+```
 pip install pygame
 Run the Game:
+```
 
-bash
+```
 python main.py
+```
 
 ---
 
 ### 📝 Future Improvements
 Here are some ideas for extending the project:
 
-AI Opponent: Add a single-player mode with an AI capable of making intelligent moves.
-Online Multiplayer: Enable players to compete over the internet.
-Game Save/Load: Allow saving and loading of game progress.
-Enhanced Graphics: Introduce animations and improved visual effects for a more immersive experience.
+- AI Opponent: Add a single-player mode with an AI capable of making intelligent moves.
+- Online Multiplayer: Enable players to compete over the internet.
+- Game Save/Load: Allow saving and loading of game progress.
+- Enhanced Graphics: Introduce animations and improved visual effects for a more immersive experience.
 
 ---
 
