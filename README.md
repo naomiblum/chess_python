@@ -23,9 +23,9 @@ Customizable Assets: Easily replace the graphical assets for a personalized look
 ### 💡 Objectives
 The project was developed with the following goals:
 
-To practice object-oriented design by modeling chess pieces, the board, and the game's logic as separate classes.
-To deepen understanding of game development using Pygame.
-To simulate a real-world project by integrating logic, graphics, and user interaction.
+- To practice object-oriented design by modeling chess pieces, the board, and the game's logic as separate classes.
+- To deepen understanding of game development using Pygame.
+- To simulate a real-world project by integrating logic, graphics, and user interaction.
 
 ---
 
@@ -40,14 +40,18 @@ Special game states such as check, checkmate, and pawn promotion are handled aut
 ### 📂 Project Structure
 The project is organized into multiple files for clarity and reusability:
 
-Code
 chess_python/
 │
-├── assets/                # Contains graphical assets for chess pieces
-├── additions.py           # Additional functionality and helper functions
-├── constants.py           # Constants used across the project (e.g., colors, dimensions)
-├── main.py                # Entry point for running the game
-⚙️ Technologies Used
+├── assets/         # Contains graphical assets for chess pieces
+├── src/            # Source code files
+│   ├── board.py    # Handles chessboard logic
+│   ├── pieces.py   # Defines chess pieces and their movement rules
+│   ├── game.py     # Manages game state and player turns
+│   └── utils.py    # Utility functions for the game
+│
+└── main.py         # Entry point for running the game
+
+### ⚙️ Technologies Used
 Python: Core programming language
 Pygame: Library for game development and rendering graphics
 
