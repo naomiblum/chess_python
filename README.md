@@ -31,11 +31,11 @@ The project was developed with the following goals:
 
 ---
 
-###🚀 How It Works
-The chessboard is displayed using Pygame, and each square on the board is clickable.
-Players take turns selecting pieces and making moves.
-The game enforces the rules of chess, ensuring that only legal moves are allowed.
-Special game states such as check, checkmate, and pawn promotion are handled automatically.
+### 🚀 How It Works
+- The chessboard is displayed using Pygame, and each square on the board is clickable.
+- Players take turns selecting pieces and making moves.
+- The game enforces the rules of chess, ensuring that only legal moves are allowed.
+- Special game states such as check, checkmate, and pawn promotion are handled automatically.
 
 ---
 
