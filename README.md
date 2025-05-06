@@ -44,14 +44,11 @@ The project is organized into multiple files for clarity and reusability:
 ```
 chess_python/
 │
-├── assets/         # Contains graphical assets for chess pieces
-├── src/            # Source code files
-│   ├── board.py    # Handles chessboard logic
-│   ├── pieces.py   # Defines chess pieces and their movement rules
-│   ├── game.py     # Manages game state and player turns
-│   └── utils.py    # Utility functions for the game
-│
-└── main.py         # Entry point for running the game
+├── assets/       # Contains graphical assets for chess pieces
+├── board.py    # Handles chessboard logic
+├── pieces.py   # Defines chess pieces and their movement rules
+├── game.py     # Manages game state and player turns
+│── main.py         # Entry point for running the game
 ```
 
 ### ⚙️ Technologies Used
