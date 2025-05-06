@@ -1,4 +1,4 @@
-## Chess Python: Interactive Chess Game with Pygame
+## ♟️ Chess Python: Interactive Chess Game with Pygame
 
 ### 🌟 Overview
 - This project is an interactive two-player chess game built using Python and Pygame. 
@@ -44,11 +44,10 @@ The project is organized into multiple files for clarity and reusability:
 ```
 chess_python/
 │
-├── assets/       # Contains graphical assets for chess pieces
-├── board.py    # Handles chessboard logic
-├── pieces.py   # Defines chess pieces and their movement rules
-├── game.py     # Manages game state and player turns
-│── main.py         # Entry point for running the game
+├── assets/                # Contains graphical assets for chess pieces
+├── additions.py           # Additional functionality and helper functions
+├── constants.py           # Constants used across the project (e.g., colors, dimensions)
+├── main.py                # Entry point for running the game
 ```
 
 ### ⚙️ Technologies Used
